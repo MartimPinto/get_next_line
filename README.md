@@ -14,7 +14,7 @@ The get_next_line consists of creating a function that reads a file descriptor l
 ## Usage
 #### 1st - Clone the repository
 ``` bash
-git@github.com:MartimPinto/ft_printf.git ft_printf
+git@github.com:MartimPinto/get_next_line.git get_next_line
 ```
 #### 2nd - Enter the library folder and run Make
 ``` bash
