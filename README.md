@@ -16,14 +16,21 @@ The get_next_line consists of creating a function that reads a file descriptor l
 ``` bash
 git@github.com:MartimPinto/get_next_line.git get_next_line
 ```
-#### 2nd - Enter the library folder and run Make
+#### 2nd - Enter the project folder and compile
 ``` bash
-cd ft_printf/src
-make
+cd get_next_line/src
+
+[Flags] -Wall -Wextra -Werror
+[Mandatory] cc [Flags] main.c get_next_line.c get_next_line_utils.c
+[Bonus] cc [Flags] main.c get_next_line_bonus.c get_next_line_utils_bonus.c
 ```
-#### 3rd - Include the header in your .c file
+
+The main.c function is not included in this repository.
+
+#### 3rd - Execution with one or multiple file descriptors/standard input
 ``` c
-#include "ft_printf.h"
+./a.out [text.txt]
+./a.out [text1.txt] [text2.txt]
 ```
 ## Norme
 
